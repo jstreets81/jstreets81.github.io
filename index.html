@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jonny Streets · Music from Madrid</title>
+<meta name="description" content="Jonny Streets: a Madrid-based creator turning real people's stories into AI-crafted songs, mixing techno, classical, pop, rock and more.">
+<meta property="og:title" content="Jonny Streets">
+<meta property="og:description" content="Real stories, turned into songs. New single: Qué Cielo Te Cuidará.">
+<meta property="og:image" content="assets/covers/que-cielo-te-cuidara-640.jpg">
+<meta name="theme-color" content="#0b0b10">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top">Jonny&nbsp;Streets</a>
+  <nav>
+    <a href="#releases">Releases</a>
+    <a href="#story">Your Song</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO: driven by window.LATEST in releases.js -->
+  <section class="hero">
+    <div class="hero-bg" id="hero-bg" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <img class="hero-cover" id="hero-cover" src="" alt="" width="640" height="640">
+      <div class="hero-text">
+        <p class="eyebrow" id="hero-label">New release</p>
+        <h1 id="hero-title">&nbsp;</h1>
+        <p class="lede">Real stories, turned into songs. Made in Madrid.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" id="hero-listen" href="https://open.spotify.com/artist/5wVHvD4nNvADjevXYtpbYw" target="_blank" rel="noopener">Listen on Spotify</a>
+          <a class="btn btn-ghost" href="#story">Request a song</a>
+        </div>
+        <div class="player">
+          <iframe id="hero-embed" title="Spotify player" loading="lazy" height="152"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELEASES: rendered from window.RELEASES in releases.js -->
+  <section class="section" id="releases">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Releases</h2>
+        <div class="filters" role="tablist">
+          <button class="chip is-on" data-f="all">All</button>
+          <button class="chip" data-f="album">Albums &amp; EPs</button>
+          <button class="chip" data-f="single">Singles</button>
+        </div>
+      </div>
+      <ul class="grid" id="grid"></ul>
+      <noscript><p><a href="https://open.spotify.com/artist/5wVHvD4nNvADjevXYtpbYw">See all releases on Spotify</a></p></noscript>
+    </div>
+  </section>
+
+  <!-- YOUR STORY, YOUR SONG -->
+  <section class="section story" id="story">
+    <div class="wrap story-card">
+      <p class="eyebrow">Your Story, Your Song</p>
+      <h2>Got a story worth a song?</h2>
+      <p>A birthday, a love story, a trip, a goodbye. Tell me about the people,
+        places and little details, pick a vibe, and I'll turn it into a song that's yours to keep.</p>
+      <ol class="steps">
+        <li><strong>Tell</strong> the story in a short form</li>
+        <li><strong>Pick</strong> a mood and a genre</li>
+        <li><strong>Get</strong> your song</li>
+      </ol>
+      <a class="btn btn-primary" href="https://docs.google.com/forms/d/1_iCQJDA9AddLAq5rl2xiSakupWrHpPzHp5Rea6GLsaA/viewform" target="_blank" rel="noopener">Request your song</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap about">
+      <h2>About</h2>
+      <div>
+        <p class="big">A Madrid-based creator turning real people's stories into AI-crafted songs, mixing techno,
+          classical, pop, rock and more into meaningful soundtrack memories.</p>
+        <p>Every Jonny Streets track starts with a person, a place or a feeling. The words and the vision come from
+          real stories; the sound is shaped with AI. Songs in English and Spanish, from the chess-board concept album
+          Your Move to singles like Qué Cielo Te Cuidará.</p>
+        <ul class="facts">
+          <li><span id="count-releases">21</span><small>releases</small></li>
+          <li><span>2</span><small>languages</small></li>
+          <li><span>MAD</span><small>home base</small></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer-title">Listen &amp; follow</p>
+    <ul class="links">
+      <li><a href="https://open.spotify.com/artist/5wVHvD4nNvADjevXYtpbYw" target="_blank" rel="noopener">Spotify</a></li>
+      <li><a href="https://music.apple.com/es/artist/jonny-streets/1859664818" target="_blank" rel="noopener">Apple Music</a></li>
+      <li><a href="https://music.youtube.com/channel/UCx5z5uSIVNYWG8gpNYX_5FQ" target="_blank" rel="noopener">YouTube Music</a></li>
+      <li><a href="https://www.soundcloud.com/jonny-streets" target="_blank" rel="noopener">SoundCloud</a></li>
+      <li><a href="https://instagram.com/jonnystreetsmusic" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://linktr.ee/jonnystreets" target="_blank" rel="noopener">Linktree</a></li>
+    </ul>
+    <p class="small">© <span id="yr">2026</span> Jonny Streets · Madrid</p>
+  </div>
+</footer>
+
+<script src="releases.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
