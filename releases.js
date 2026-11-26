@@ -8,14 +8,32 @@
    ============================================================ */
 
 window.LATEST = {
-  title: "Qué Cielo Te Cuidará",
+  title: "Little Things",
   label: "New single · 2026",
-  cover: "assets/covers/que-cielo-te-cuidara-640.jpg",
-  spotify: "https://open.spotify.com/album/3ChpM1UR8yhXoHsF6tQ04k",
-  embed: "https://open.spotify.com/embed/album/3ChpM1UR8yhXoHsF6tQ04k?utm_source=generator&theme=0"
+  cover: "assets/covers/little-things-640.jpg",
+  spotify: "https://open.spotify.com/album/2u1wshcxs4dTkRUm24MWrJ",
+  embed: "https://open.spotify.com/embed/album/2u1wshcxs4dTkRUm24MWrJ?utm_source=generator&theme=0"
 };
 
 window.RELEASES = [
+  {
+    "slug": "little-things",
+    "title": "Little Things",
+    "type": "single",
+    "year": 2026,
+    "tracks": 1,
+    "spotify": "https://open.spotify.com/album/2u1wshcxs4dTkRUm24MWrJ",
+    "cover": "assets/covers/little-things.jpg"
+  },
+  {
+    "slug": "we-rise-just-to-dance",
+    "title": "We Rise Just to Dance",
+    "type": "single",
+    "year": 2026,
+    "tracks": 1,
+    "spotify": "https://open.spotify.com/album/4LfX8MhaZ6x9VX29dQY4T8",
+    "cover": "assets/covers/we-rise-just-to-dance.jpg"
+  },
   {
     "slug": "que-cielo-te-cuidara",
     "title": "Qué Cielo Te Cuidará",
